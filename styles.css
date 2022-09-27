@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+}
+body{ display: grid; min-height: 100vh; grid-template-rows: auto 1fr auto; }
+
+
+.bg-darkGrey{
+    background-color: #0F0E0E;
+}
+
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256, 256, 256, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.btnCarrito{
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+}
+.btnCarrito:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.imgProducto{
+    min-width: 10rem;
+    max-width: 15rem;
+}
+
+#buscar{
+    background-color: #333333;
+    border: none;
+    color: white;
+}
+
+.contacto{
+    background-color: #06231c;
+}
+.form-contacto{
+    margin:0 auto;
+    width:25rem
+}
+textarea{resize:none}
+
+#btnEnviar{
+    background:transparent;
+    border:1px solid #FFF;
+    border-radius:5px;
+    color:#FFF;
+    padding:0.3rem;
+    font-weight:bold
+}
+#btnEnviar:hover{
+    background-color:#FFF;
+    border:1px solid black;
+    color:black;
+    transition:0.5s
+}

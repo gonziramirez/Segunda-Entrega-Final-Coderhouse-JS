@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1664ef676a.js" crossorigin="anonymous"></script>
+    <title>ESSENTIALS</title>
+</head>
+<body>
+<header class="bg-darkGrey">
+<!-- NAV -->
+<div class="container justify-content-around">
+    <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand font-weight-bold text-white" href="index.html">ESSENTIALS</a>
+    <button button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse justify-content-end text-center" id="navbarsExample04">
+        <!-- ITEMS NAV -->
+        <span id="contenedorBuscar">
+            <input type="search" name="" id="buscar" placeholder="Buscar">
+        </span>
+        <a class="item-nav nav-link text-white" href="index.html">Inicio</a>
+        <a class="item-nav nav-link text-white" href="index.html">Indumentaria</a>
+        <a class="item-nav nav-link text-white" href="contacto.html">Contacto</a>
+        <a class="item-nav nav-link text-danger" href="index.html">¡SALE!</a>
+        <a class="item-nav nav-link text-white" href="index.html"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+    </nav>
+</div>
+</header>
+<div class="contenedorProductos container d-flex flex-column flex-md-row justify-content-around col-6">
+</div>
+<div id="container"></div> 
+<div id="carrito"></div>
+<div class="idTotal"></div>
+
+
+
+<footer>
+<div class="container-fluid bg-darkGrey">
+    <div class="row d-flex flex-column align-items-center justify-content-center">
+    <ul class="d-flex list-unstyled">
+        <!-- Iconos Footer -->
+        <li class="p-3"><a class="footer-item text-white"
+            href=""><i
+            class="fa fa-map-marker text-decoration-none"></i></a></li> <!-- ubicacion -->
+        <li class="p-3"><a class="footer-item text-white" href=""><i
+            class="fa fa-envelope-o"></i></a></li><!-- email -->
+        <li class="p-3"><a class="footer-item text-white" href=""><i
+            class="fa fa-whatsapp"></i></a></li><!-- whatsapp -->
+        <li class="p-3"><a class="footer-item text-white" href=""><i
+            class="fa fa-instagram"></i></a></li><!-- instagram -->
+    </ul>
+    <!-- Copyright Footer -->
+    <p class="text-center text-light">Todos los derechos reservados &copy; - ESSENTIALS 2022</p>
+    </div>
+</div>
+</footer>
+    <script src="index.js"></script>      
+    <!-- SCRIPTS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap/js/popper.min.js"></script>
+</body>
+</html>
